@@ -24,6 +24,22 @@ nav a:hover {
     border-radius: 5px;
 }
 
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #0b6623;
+    color: white;
+}
+
+td, th {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
 .cards {
     display: flex;
     gap: 10px;
@@ -36,3 +52,4 @@ nav a:hover {
     border-radius: 5px;
     background-color: #fafafa;
 }
+
