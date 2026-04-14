@@ -23,3 +23,16 @@ nav a:hover {
     margin-top: 10px;
     border-radius: 5px;
 }
+
+.cards {
+    display: flex;
+    gap: 10px;
+}
+
+.card {
+    flex: 1;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #fafafa;
+}
