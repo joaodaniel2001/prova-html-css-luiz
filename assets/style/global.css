@@ -1,1 +1,16 @@
-@import
+header {
+    background-color: #0B6623;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: #CCE5CC;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #fff;
+}
