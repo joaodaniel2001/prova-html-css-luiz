@@ -12,18 +12,22 @@
   <header>
     <h1>FutNews</h1>
     <nav>
-      <a href="#">Início</a>
-      <a href="#">Notícias</a>
-      <a href="#">Tabela</a>
+      <a href="#inicio">Início</a>
+      <a href="#noticias">Notícias</a>
+      <a href="#tabela">Tabela</a>
       <a href="#">Contato</a>
     </nav>
+  
   </header>
-  <section class="principal">
+  <main>
+
+  <section id="inicio" class="principal">
     <h2>Destaque do dia</h2>
     <p>Grande jogo movimenta o campeonato brasileiro nesta rodada.</p>
     <img src="assets/img/zapelli-chapecoense-1-1024x576.jpg" width="500px" height="300px" alt="CAP x CHA">
   </section>
-  <section>
+
+  <sectionF id="noticias">
   <h2>Últimas Notícias</h2>
 
   <div class="cards">
@@ -42,8 +46,8 @@
       <p>Resultados ruins preocupam.</p>
     </div>
   </div>
-</section>
-<section>
+</sectionF>
+<section id="tabela">
     <h2>Tabela do Brasileirão</h2>
 
     <table>
@@ -73,7 +77,21 @@
             <td>25</td>
         </tr>
     </table>
+
+<section id="contato">
+    <h2>Contato</h2>
+
+    <form>
+        <input type="text" placeholder="Nome"><br>
+        <input type="email" placeholder="Email"><br>
+        <button type="submit">Enviar</button>
+    </form>
 </section>
+</main>
+
+<footer>
+    <p>© 2026 FutNews</p>
+</footer>
 
 </body>
 </html>
