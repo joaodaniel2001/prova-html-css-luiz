@@ -1,0 +1,55 @@
+header {
+    background-color: #0B6623;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: #CCE5CC;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #fff;
+}
+
+.principal{
+    text-align: center;
+}
+
+.principal img{
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #0b6623;
+    color: white;
+}
+
+td, th {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    gap: 10px;
+}
+
+.card {
+    flex: 1;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #fafafa;
+}
+
